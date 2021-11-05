@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [Fuzzy]
+    AUTHORIZATION [dbo];
+
