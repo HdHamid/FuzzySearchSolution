@@ -65,6 +65,7 @@
     <Folder Include="Common\Stored Procedures\" />
     <Folder Include="Fuzzy\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="Data" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Common\Tables\Alphabet.sql" />
@@ -80,5 +81,13 @@
     <Build Include="Fuzzy\Stored Procedures\Search.sql" />
     <Build Include="Security\Common.sql" />
     <Build Include="Security\Fuzzy.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\CommonAlphabet.csv" />
+    <None Include="Data\CommonConjunctions.csv" />
+    <None Include="Data\CommonIgnoredChars.csv" />
+    <None Include="Data\CommonPhrases.csv" />
+    <None Include="Data\CommonPhraseSourceRelation.csv" />
+    <None Include="Data\FuzzyPhraseChars.csv" />
   </ItemGroup>
 </Project>

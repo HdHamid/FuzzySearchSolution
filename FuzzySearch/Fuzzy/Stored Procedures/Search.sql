@@ -1,13 +1,8 @@
-﻿--exec Common.InsertPhrase @ColId = N'ID',@ColName = 'Description',@TableName = N'[Test01]..Names'
---exec Fuzzy.InsertPhraseChars
-
-
-
-
---exec Fuzzy.Search  @SearchPhrase = N'شیبا'
-CREATE procedure Fuzzy.Search 
+﻿--exec Fuzzy.Search  @SearchPhrase = N'شیبا'
+CREATE procedure [Fuzzy].[Search] 
 @SearchPhrase nvarchar(250) 
-,@CharPosition int = 0
+,@CharLeft int = 0
+,@CharRight int = 0
 ,@Prcnt decimal(5,2) = 60
 as 
 Drop table if exists #Res2
@@ -35,7 +30,7 @@ drop table if exists #stp1
 (
 	select r.*,r2.LenString as SrchStringLen
 	from #res2 r2 
-	inner join [Fuzzy].[PhraseChars] r on r.CharId = r2.CharId and r.CharPlace between r2.CharPlace - @CharPosition and r2.CharPlace + @CharPosition  --r.UnqNn = r2.UnqNn	
+	inner join [Fuzzy].[PhraseChars] r on r.CharId = r2.CharId and r.CharPlace between r2.CharPlace - @CharLeft and r2.CharPlace + @CharRight  --r.UnqNn = r2.UnqNn	
 )
 select * into #stp1 from stp1
 
