@@ -1,0 +1,87 @@
+5/19/2023 10:54:37 PM	This log contains information about the import schema operation into project 'Fuzzyearch' on computer 'DESKTOP-4O3HP4J' by user 'Hamid'.
+5/19/2023 10:54:37 PM	Import of database schema has started.
+5/19/2023 10:54:43 PM	Gathering database credentials
+5/19/2023 10:54:43 PM	Gathering database options
+5/19/2023 10:54:43 PM	Gathering generic database scoped configuration option
+5/19/2023 10:54:43 PM	Gathering users
+5/19/2023 10:54:43 PM	Gathering roles
+5/19/2023 10:54:43 PM	Gathering application roles
+5/19/2023 10:54:43 PM	Gathering role memberships
+5/19/2023 10:54:43 PM	Gathering filegroups
+5/19/2023 10:54:43 PM	Gathering full-text catalogs
+5/19/2023 10:54:43 PM	Gathering assemblies
+5/19/2023 10:54:43 PM	Gathering certificates
+5/19/2023 10:54:43 PM	Gathering asymmetric keys
+5/19/2023 10:54:43 PM	Gathering symmetric keys
+5/19/2023 10:54:43 PM	Gathering encrypted symmetric keys
+5/19/2023 10:54:43 PM	Gathering schemas
+5/19/2023 10:54:43 PM	Gathering XML schema collections
+5/19/2023 10:54:43 PM	Gathering user-defined data types
+5/19/2023 10:54:43 PM	Gathering user-defined types
+5/19/2023 10:54:43 PM	Gathering table types
+5/19/2023 10:54:43 PM	Gathering unique keys for table types
+5/19/2023 10:54:43 PM	Gathering primary keys for table types
+5/19/2023 10:54:43 PM	Gathering indexes for table types
+5/19/2023 10:54:43 PM	Gathering check constraints for table types
+5/19/2023 10:54:43 PM	Gathering default constraints for table types
+5/19/2023 10:54:43 PM	Gathering partition functions
+5/19/2023 10:54:43 PM	Gathering partition schemes
+5/19/2023 10:54:43 PM	Gathering functions
+5/19/2023 10:54:43 PM	Gathering encrypted functions
+5/19/2023 10:54:43 PM	Gathering aggregates
+5/19/2023 10:54:43 PM	Gathering procedures
+5/19/2023 10:54:43 PM	Gathering encrypted procedures
+5/19/2023 10:54:43 PM	Gathering tables
+5/19/2023 10:54:43 PM	Gathering primary keys
+5/19/2023 10:54:43 PM	Gathering unique constraints
+5/19/2023 10:54:43 PM	Gathering foreign keys
+5/19/2023 10:54:43 PM	Gathering default constraints
+5/19/2023 10:54:43 PM	Gathering check constraints
+5/19/2023 10:54:43 PM	Gathering views
+5/19/2023 10:54:43 PM	Gathering encrypted views
+5/19/2023 10:54:43 PM	Gathering indexes
+5/19/2023 10:54:43 PM	Gathering statistics
+5/19/2023 10:54:43 PM	Gathering full-text index stoplists
+5/19/2023 10:54:43 PM	Gathering search property lists
+5/19/2023 10:54:43 PM	Gathering search properties
+5/19/2023 10:54:43 PM	Gathering full-text indexes
+5/19/2023 10:54:43 PM	Gathering column store indexes
+5/19/2023 10:54:43 PM	Gathering spatial indexes
+5/19/2023 10:54:43 PM	Gathering XML indexes
+5/19/2023 10:54:43 PM	Gathering Selective XML indexes
+5/19/2023 10:54:43 PM	Gathering encrypted triggers
+5/19/2023 10:54:43 PM	Gathering triggers
+5/19/2023 10:54:43 PM	Gathering encrypted and clr ddl triggers
+5/19/2023 10:54:43 PM	Gathering ddl triggers
+5/19/2023 10:54:43 PM	Creating edge constraints
+5/19/2023 10:54:43 PM	Gathering synonyms
+5/19/2023 10:54:43 PM	Gathering defaults
+5/19/2023 10:54:43 PM	Gathering data constraint uddt bindings
+5/19/2023 10:54:43 PM	Gathering rules
+5/19/2023 10:54:43 PM	Gathering data constraint uddt bindings
+5/19/2023 10:54:43 PM	Gathering message types
+5/19/2023 10:54:43 PM	Gathering queues
+5/19/2023 10:54:43 PM	Gathering contracts
+5/19/2023 10:54:43 PM	Gathering services
+5/19/2023 10:54:43 PM	Gathering event notifications
+5/19/2023 10:54:43 PM	Gathering remote service bindings
+5/19/2023 10:54:43 PM	Gathering broker priorities
+5/19/2023 10:54:43 PM	Gathering signatures
+5/19/2023 10:54:43 PM	Gathering data compression options
+5/19/2023 10:54:43 PM	Gathering sequence types
+5/19/2023 10:54:43 PM	Gathering security policies
+5/19/2023 10:54:43 PM	Gather column encryption keys
+5/19/2023 10:54:43 PM	Gathering column master keys
+5/19/2023 10:54:43 PM	Gathering external data sources
+5/19/2023 10:54:43 PM	Gathering external file formats
+5/19/2023 10:54:43 PM	Gathering external tables
+5/19/2023 10:54:43 PM	Gathering extended properties
+5/19/2023 10:54:43 PM	Gathering assemblies
+5/19/2023 10:54:43 PM	Gathering credentials
+5/19/2023 10:54:43 PM	Gathering logins
+5/19/2023 10:54:43 PM	Gathering server audits
+5/19/2023 10:54:43 PM	Scanning project for duplicate elements
+5/19/2023 10:54:43 PM	Finished duplicate element processing
+5/19/2023 10:54:43 PM	Finished importing database.
+5/19/2023 10:54:43 PM	A summary of the import was saved to the following location: C:\Users\Hamid\Desktop\FZY\Fuzzyearch\Fuzzyearch\Import Schema Logs\Fuzzyearch_20230519062437.log
+5/19/2023 10:54:43 PM	Click Finish to continue...

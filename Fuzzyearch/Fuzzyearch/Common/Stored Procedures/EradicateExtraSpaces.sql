@@ -1,5 +1,5 @@
 ﻿--Exec Common.EradicateExtraSpaces @ColId = N'ID',@ColName = 'Name',@TableName = N'[Test01]..Names'
-CREATE Procedure Common.EradicateExtraSpaces
+CREATE Procedure [Common].[EradicateExtraSpaces]
 @ColId nvarchar(Max) = N'ID'
 ,@ColName Nvarchar(MAX) 
 ,@TableName  Nvarchar(MAX) 
@@ -16,5 +16,6 @@ REPLACE(
         ,CHAR(7),'''') as '+@ColName+'_New
 from '+@TableName+'
 '
+print @SqlString
 exec(@SqlString)
 

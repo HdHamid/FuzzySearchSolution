@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>FuzzySearch</Name>
+    <Name>Fuzzyearch</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{cdffc72c-a530-457d-aa9d-c2bea2ea5b63}</ProjectGuid>
+    <ProjectGuid>{c62b2c37-ae80-4f8c-a465-6f399a6daedf}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>FuzzySearch</RootNamespace>
-    <AssemblyName>FuzzySearch</AssemblyName>
+    <RootNamespace>Fuzzyearch</RootNamespace>
+    <AssemblyName>Fuzzyearch</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -65,7 +65,6 @@
     <Folder Include="Common\Stored Procedures\" />
     <Folder Include="Fuzzy\Stored Procedures\" />
     <Folder Include="Security\" />
-    <Folder Include="Data" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Common\Tables\Alphabet.sql" />
@@ -79,15 +78,8 @@
     <Build Include="Fuzzy\Stored Procedures\InsertPhraseChars.sql" />
     <Build Include="Common\Stored Procedures\ErrorHandling.sql" />
     <Build Include="Fuzzy\Stored Procedures\Search.sql" />
+    <Build Include="Common\Stored Procedures\InsertRawText.sql" />
     <Build Include="Security\Common.sql" />
     <Build Include="Security\Fuzzy.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Data\CommonAlphabet.csv" />
-    <None Include="Data\CommonConjunctions.csv" />
-    <None Include="Data\CommonIgnoredChars.csv" />
-    <None Include="Data\CommonPhrases.csv" />
-    <None Include="Data\CommonPhraseSourceRelation.csv" />
-    <None Include="Data\FuzzyPhraseChars.csv" />
   </ItemGroup>
 </Project>

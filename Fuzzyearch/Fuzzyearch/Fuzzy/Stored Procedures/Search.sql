@@ -1,4 +1,10 @@
-﻿--exec Fuzzy.Search  @SearchPhrase = N'شیبا'
+﻿--exec Common.InsertPhrase @ColId = N'ID',@ColName = 'Description',@TableName = N'[Test01]..Names'
+--exec Fuzzy.InsertPhraseChars
+
+
+
+
+--exec Fuzzy.Search  @SearchPhrase = N'شیبا'
 CREATE procedure [Fuzzy].[Search] 
 @SearchPhrase nvarchar(250) 
 ,@CharLeft int = 0
@@ -35,7 +41,8 @@ drop table if exists #stp1
 select * into #stp1 from stp1
 
 drop table if exists #stp2
-select s.phraseid,s.LenString,s.SrchStringLen,Count(1) as Cnt into #stp2
+select s.phraseid,s.LenString,s.SrchStringLen,Count(1) as Cnt ,Count(1)*100.00/(iif(LenString>SrchStringLen,LenString,SrchStringLen)*1.00) as SamePrcnt
+into #stp2
 from #stp1 s
 group by  s.phraseid,s.LenString,s.SrchStringLen
 having Count(1)*100.00/(iif(LenString>SrchStringLen,LenString,SrchStringLen)*1.00) >= @Prcnt
