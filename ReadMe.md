@@ -8,6 +8,8 @@ joins, and proper indexing. You can view the project's output in the form of an 
 
 ![FuzzySearch](https://github.com/HdHamid/FuzzySearchSolution/blob/master/FuzzySearch.jpg)
 
+The sample data is in English and Persian, but this system supports all languages
+
 ## The project includes the following tables:
 
 1- [Common].[Alphabet]: This table contains Persian and English alphabet characters.
